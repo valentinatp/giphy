@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$("#elementos").append(armarTemplate(gif, url));
 		});
 	}
-		var armarTemplate = function(gif.url){
+		var armarTemplate = function(gif,url){
 		var t = "<div class='elemento'><img src='" + gif + "'/<a href='" + url + "'>Ver más</a></div>"
 		return t;
 		}
